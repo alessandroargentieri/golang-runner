@@ -5,7 +5,7 @@ echo "Waiting for project uploading..."
 while [ -z $(ls project-files/) ]; do
   sleep 1
 done
-
+sleep 10
 echo "Project uploaded"
 cd ./project-files
 
